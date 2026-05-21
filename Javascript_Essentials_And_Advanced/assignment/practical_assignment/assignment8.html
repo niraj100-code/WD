@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ask for a Number Greater than 10</title>
+</head>
+<body>
+
+  <script>
+    let number; 
+
+    do {
+      number = parseInt(prompt("Please enter a number greater than 10:"));
+      
+    } while (isNaN(number) || number <= 10);
+
+    alert("You entered a valid number: " + number);
+  </script>
+
+</body>
+</html>
